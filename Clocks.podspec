@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'Clocks'
-  s.version        = '1.0.8'
+  s.version        = '1.0.9'
   s.summary        = 'Clock utilities for Swift concurrency.'
   s.description    = 'Clocks and testable time utilities for Swift concurrency.'
   s.author         = 'Point-Free'
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'ConcurrencyExtras', '1.3.3'
-  s.dependency 'IssueReporting', '1.8.3'
+  s.dependency 'IssueReporting', '1.8.4'
 end
